@@ -5,7 +5,7 @@ Implementation of the algorithm in the paper "Deep Learning Based Proarrhythmia 
 Python 3.5.2 Keras 2.0.6 tensorflow 1.2.1 Numpy 1.11.1
 
 # The format of the input sample file
-To test a new sample, export your recordings in .txt file.
+To test a new sample, export your recordings in a .txt file.
 
 # Trying for new samples
 The trained networks are saved and currently available at the folder of "Trained_networks". To test a new sample, use the file "test_new_sample.py" in the "CNN_RNN" folder. You just need to give the name and directory which your .txt file is saved and also its sampling rate. In addition, you can determine that you want to see the plot of your data or not.
